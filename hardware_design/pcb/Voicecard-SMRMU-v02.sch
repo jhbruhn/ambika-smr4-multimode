@@ -10843,20 +10843,15 @@ emilie.o.gillet@gmail.com</text>
 <segment>
 <pinref part="R16" gate="G$1" pin="S"/>
 <wire x1="246.38" y1="101.6" x2="256.54" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R21" gate="G$1" pin="1"/>
-<pinref part="R16" gate="G$1" pin="A"/>
-<wire x1="251.46" y1="96.52" x2="256.54" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="96.52" x2="259.08" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="101.6" x2="256.54" y2="96.52" width="0.1524" layer="91"/>
-<junction x="256.54" y="96.52"/>
 <pinref part="SJ1" gate="1" pin="1"/>
 <wire x1="256.54" y1="106.68" x2="256.54" y2="101.6" width="0.1524" layer="91"/>
 <junction x="256.54" y="101.6"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
+<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="R16" gate="G$1" pin="A"/>
+<wire x1="251.46" y1="96.52" x2="256.54" y2="96.52" width="0.1524" layer="91"/>
 <junction x="256.54" y="96.52"/>
+<wire x1="256.54" y1="96.52" x2="259.08" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
