@@ -7823,7 +7823,7 @@ Source: 008-0260-0_E.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="4052" prefix="IC">
+<deviceset name="CD4052" prefix="IC">
 <description>8-channel &lt;b&gt;ANALOG MULTIPLEXER&lt;/b&gt;</description>
 <gates>
 <gate name="P" symbol="PWR+VEE" x="-5.08" y="0" addlevel="request"/>
@@ -7858,7 +7858,7 @@ Source: 008-0260-0_E.pdf</description>
 </technology>
 </technologies>
 </device>
-<device name="D" package="SOIC16N">
+<device name="B" package="SOIC16N">
 <connects>
 <connect gate="G$1" pin="A" pad="10"/>
 <connect gate="G$1" pin="B" pad="9"/>
@@ -8415,7 +8415,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C6" library="jhbruhn-cdr" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="C18" library="jhbruhn-cdr" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="IC7" library="jhbruhn-ic" deviceset="4052" device="D"/>
+<part name="IC7" library="jhbruhn-ic" deviceset="CD4052" device="B"/>
 <part name="R31" library="jhbruhn-cdr" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/42" value="22k"/>
 <part name="C22" library="jhbruhn-cdr" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10p"/>
 <part name="R60" library="jhbruhn-cdr" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/42" value="68k"/>
